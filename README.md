@@ -6,5 +6,6 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 ```
 
 ## Deploy the Stack
-```docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+```
+docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 ```
